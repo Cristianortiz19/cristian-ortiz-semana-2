@@ -8,11 +8,12 @@
 }
 
 header {
-    background-color: #000000;
+    background-color: black;
 }
 
 main {
     background-image: url('src/bg.jpg');
+    padding-top: 100px;
 }
 
 footer{
@@ -34,4 +35,22 @@ h1 {
 
 .home {
     color: white;
+}
+
+.card {
+    background-color: #0d282b;
+}
+
+.music-list {
+    width: 900px;
+    padding: 30px;
+    padding-left: 50px;
+    border: 2px dashed #2b5e63;
+    border-radius: 4px;
+
+}
+
+.albumes {
+    padding: 80px;
+    padding-top: 120px;
 }
