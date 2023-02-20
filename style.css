@@ -7,6 +7,14 @@
     padding-left: 25px;
 }
 
+#logo-img img {
+    width: 220;
+}
+
+#logo-img img:hover {
+    width: 240;
+}
+
 header {
     background-color: black;
 }
@@ -58,4 +66,13 @@ h1 {
 
 .album-info {
     padding: 30px;
+}
+
+#navigation li {
+    font-weight: 700;
+    color: white;
+}
+
+.social {
+    fill: white;
 }

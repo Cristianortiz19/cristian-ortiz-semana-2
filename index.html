@@ -14,21 +14,21 @@
 </head>
 <body>
 	<header class="d-flex fixed-top flex-wrap align-items-center justify-content-center justify-content-md-between m-0 py-3 mb-0 color-">
-		<a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" id="logo-img">
+		<a href="https://depresionsonora.com" target="_blank" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" id="logo-img">
 			<img src="src/depresion.png" alt="" width="220" height="32">
 		</a>
 
-		<ul class="nav col-12 col-md-auto mb-2  justify-content-center mb-md-0 mr-md-200" >
-			<li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark">Photos</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark">Albums</a></li>
+		<ul class="nav col-12 col-md-auto mb-2  justify-content-center mb-md-0 mr-md-200" id="navigation">
+			<li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
+			<li><a href="#fotos" class="nav-link px-2 link-dark">Fotos</a></li>
+			<li><a href="#albumes" class="nav-link px-2 link-dark">Álbumes</a></li>
 		</ul>
 		<div>
 			<ul>
 		</div>
 	</header>
 	<main>
-		<section class="home d-flex">
+		<section class="home d-flex" id="home">
 			<figure>
 				<img src="src/markusiano.jpg" alt="" class="disc">
 			</figure>
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="fotos">
 			<div id="carouselExampleIndicators" class="carousel slide">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -89,11 +89,11 @@
 				</button>
 			</div>
 		</section>
-		<section class="albumes">
+		<section class="albumes" id="albumes">
 			<h1>Álbumes</h1>
 			<article class="d-flex mb-5">
 				<div class="card" style="width: 100rem;">
-					<img src="src/album1.jpg" class="card-img-top" alt="...">
+					<a href="https://open.spotify.com/album/2gG6tiHAfxVwPxPe6GL86p?si=Mhk9JYmGTyW2T4sE7rFHXw"><img src="src/album1.jpg" class="card-img-top" alt="..."></a>
 					<div class="card-body">
 						<p class="card-text">El arte de morir muy depacio. (2022)</p>
 					</div>
@@ -128,7 +128,7 @@
 			</article>
 			<article class="d-flex mb-5">
 				<div class="card" style="width: 100rem;">
-					<img src="src/album2.jpg" class="card-img-top" alt="...">
+					<a href="https://open.spotify.com/album/2Kd0xv0iBYynM0on7es48j?si=0jCbMtoVSNa7ek0ZIT8sRg" target="_blank"><img src="src/album2.jpg" class="card-img-top" alt="..."></a>
 					<div class="card-body">
 						<p class="card-text">Historias tristes para dormir bien. (2021)</p>
 					</div>
@@ -163,11 +163,12 @@
 			<span class="mb-3 mb-md-0">© 2023 Depresión sonora</span>
 		</div>
 
-		<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+		<ul class="nav col-md-4 justify-content-end list-unstyled d-flex mb-5" m-5>
+			<li class="ms-3"><a class="text-muted" target="_blank" href="https://www.instagram.com/depresion.sonora/"><img class="social" src="src/instagram.svg" fill="white" width="24" height="24" alt=""></a></li>
+			<li class="ms-3"><a class="text-muted" target="_blank" href="https://www.facebook.com/depresion.sonora/"><img class="social" src="src/facebook.svg" width="24" height="24" alt=""></a></li>
+			<li class="ms-3"><a class="text-muted" target="_blank" href="https://twitter.com/SonoraDepresion">+<img class="social" src="src/twitter.svg" width="24" height="24" alt=""></a></li>
 		</ul>
 	</footer>
+	<i class="mdi mdi-svg:"></i>
 </body>
 </html>
