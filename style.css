@@ -42,15 +42,20 @@ h1 {
 }
 
 .music-list {
-    width: 900px;
+    width: 1000px;
     padding: 30px;
     padding-left: 50px;
     border: 2px dashed #2b5e63;
     border-radius: 4px;
+    background-color: #0d282b77;
 
 }
 
 .albumes {
     padding: 80px;
     padding-top: 120px;
+}
+
+.album-info {
+    padding: 30px;
 }
