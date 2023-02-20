@@ -1,0 +1,23 @@
+
+
+#logo-img {
+    padding-left: 25px;
+}
+
+header {
+    background-color: #000000;
+}
+
+main {
+    background-color: #081B1D;
+}
+
+.disc {
+    height: 600px;
+    width: 600px;
+    border-radius: 300px;
+}
+
+.home {
+    color: white;
+}
