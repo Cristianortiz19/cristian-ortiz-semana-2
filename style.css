@@ -1,4 +1,7 @@
-
+* {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 
 #logo-img {
     padding-left: 25px;
@@ -9,13 +12,24 @@ header {
 }
 
 main {
+    background-image: url('src/bg.jpg');
+}
+
+footer{
     background-color: #081B1D;
 }
 
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
 .disc {
-    height: 600px;
-    width: 600px;
+    height: 550px;
+    width: 550px;
+    padding: 50px;
     border-radius: 300px;
+    margin-right: 100px;
 }
 
 .home {
